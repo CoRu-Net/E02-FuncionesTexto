@@ -47,4 +47,4 @@ El conjunto tiene 17 tests verdes; cubre texto vacío/espacios, emoji, palíndro
 
 ## Integración continua (opcional)
 
-Workflow `.github/workflows/ci.yml` para push y pull request a `main`; instala por `npm ci` y ejecuta ESLint, Prettier y Vitest. La ejecución local está verificada. No se ha publicado porque el repositorio personal con ese nombre ya existe y es público; se conserva intacto hasta confirmar el destino privado.
+Workflow `.github/workflows/ci.yml` para push y pull request a `main`; instala por `npm ci` y ejecuta ESLint, Prettier y Vitest. [Ejecución verde](https://github.com/CoRu-Net/E02-FuncionesTexto/actions/runs/41617973841) · [Ejecución roja de comprobación](https://github.com/CoRu-Net/E02-FuncionesTexto/actions/runs/41617885813), que falla deliberadamente en el test modificado tras superar ESLint y Prettier. Se publicó en el repositorio personal existente, sin cambiar su visibilidad pública. No se adjuntan las capturas requeridas: el navegador disponible no tiene acceso autenticado a este repositorio, así que no se han inventado imágenes.
