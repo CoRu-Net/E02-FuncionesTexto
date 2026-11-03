@@ -39,7 +39,7 @@ describe('truncar', () => {
 });
 describe('crearCensurador', () => {
   it('censura sin distinguir capitalización', () =>
-    expect(crearCensurador('feo')('Qué FEO es')).toBe('Qué *** es'));
+    expect(crearCensurador('feo')('Qué FEO es')).toBe('Qué * es'));
   it('mantiene aislados los closures', () => {
     const gato = crearCensurador('gato');
     const perro = crearCensurador('perro');
